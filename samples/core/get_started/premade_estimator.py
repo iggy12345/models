@@ -55,7 +55,8 @@ def main(argv):
     # Evaluate the model.
     eval_result = classifier.evaluate(
         input_fn=lambda:iris_data.eval_input_fn(test_x, test_y,
-                                                args.batch_size))
+                                                args.batch_size),
+        steps=1)
 
     print('\nTest set accuracy: {accuracy:0.3f}\n'.format(**eval_result))
 
