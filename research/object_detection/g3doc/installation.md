@@ -53,6 +53,10 @@ pip install --user matplotlib
 Protobuf 3+ versions for you and some users have issues when using 3.5.
 If that is your case, try the [manual](#Manual-protobuf-compiler-installation-and-usage) installation.
 
+## Download the tensorflow/models repository
+
+To use this library, you need to download this repository, whenever it says `<path-to-tensorflow>` it will be referring to the folder that you downloaded this repository into.
+
 ## COCO API installation
 
 Download the
